@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Comfortaa", cursive;
+}
+
+div.box {
+  width: 22%;
+  background-color: mistyrose;
+  text-align: center;
+  padding-bottom: 15px;
+  position: absolute;
+  left: 38%;
+  top: 40%;
+  border-radius: 20px;
+}
+
+/* div.box h1 {
+  font-size: xx-large;
+} */
+
+div.container {
+  clear: both;
+  width: 29%;
+  height: fit-content;
+  background-color: mistyrose;
+  border-radius: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 37%;
+}
+div.container:hover {
+  box-shadow: 0 2px 4px gray;
+}
+
+div.smallcontainer {
+  font-size: x-large;
+  background-color: lightpink;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+input {
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+  border: 2px solid pink;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px;
+  text-indent: 0;
+  padding-left: 0;
+  font-size: large;
+  margin: 5px;
+}
+
+.hide-modal {
+  transform: translateY(-120%);
+  transition: all 0.3s;
+}
+.show-modal {
+  transform: translateY(20%);
+  transition: all 0.3s;
+}
+button.hambutton {
+  font-size: 20px;
+  margin: 5px;
+  background-color: lightskyblue;
+  color: black;
+  border-radius: 10px;
+  font-family: "Comfortaa", cursive;
+  padding: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+button.hambutton:hover {
+  font-weight: bolder;
+}
+
+button.closebutton {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+button.closebutton:hover {
+  transform: rotate(90deg);
+  transition: all 0.3s;
+  color: black;
+}
+
+button.submit {
+  position: relative;
+  left: 30%;
+  background-color: mistyrose;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  font-family: "Comfortaa", cursive;
+  font-size: large;
+}
+
+button.submit:hover {
+  background-color: black;
+  color: lightpink;
+}
